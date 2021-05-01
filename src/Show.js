@@ -20,9 +20,9 @@ class Show extends Component {
                             <div>
                             <h3>Temperature : {temperature}<sup>0</sup>C</h3>
                             <h3>Weather :     {weather}</h3>
-                            <h3>Wind_speed : {wind_speed}</h3>
-                            <h3>Visibility : {visibility}</h3>
-                            <h3>Humidity : {humidity}</h3>
+                            <h3>Wind_speed : {wind_speed}mps</h3>
+                            <h3>Visibility : {visibility}m</h3>
+                            <h3>Humidity : {humidity}%</h3>
                             </div>
                             
                             {/* <h3>Temperature:{temperature}<sup>0</sup>C</h3>

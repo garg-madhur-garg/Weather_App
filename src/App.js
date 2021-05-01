@@ -2,9 +2,10 @@
 // import './App.css';
 import React, { Component } from "react";
 import Show from "./Show";
+
 const api = {
-  key: "75b4b771dd5e7ecec7efad87a1d2bba3",
-  base: "https://api.openweathermap.org/data/2.5/"
+  key: process.env.REACT_APP_USER_KEY,
+  base: process.env.REACT_APP_USER_BASE
 }
 
 class App extends Component {
